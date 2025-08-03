@@ -1,3 +1,6 @@
+---
+password: '12345678'
+---
 # Arquitetura e Tecnologias
 
 A aplicação utiliza uma arquitetura de microsserviços orquestrada com Docker para garantir escalabilidade e desacoplamento entre os serviços.

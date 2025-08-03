@@ -1,3 +1,7 @@
+---
+password: '12345678'
+---
+
 # 3. Gerenciando Etapas e Avaliações
 
 Depois de criar a estrutura geral do processo seletivo, é hora de construir o caminho que o candidato irá percorrer. Este caminho é composto por **Etapas**, e cada etapa pode conter uma ou mais **Avaliações**.

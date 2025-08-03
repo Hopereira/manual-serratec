@@ -1,3 +1,7 @@
+---
+password: '12345678'
+---
+
 # 1. Gestão de Regiões de Atuação
 
 Nesta seção, você aprenderá a cadastrar e gerenciar as Regiões de Atuação. Este é um passo fundamental para definir a abrangência geográfica dos seus processos seletivos, permitindo que o sistema identifique candidatos que moram em localidades específicas.

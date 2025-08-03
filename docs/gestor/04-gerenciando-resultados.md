@@ -1,3 +1,7 @@
+---
+password: '12345678'
+---
+
 # 4. Gerenciando Resultados de uma Avaliação
 
 Após os candidatos finalizarem uma avaliação, como um teste técnico ou um desafio de lógica, é aqui que você, gestor, irá processar esses resultados. A plataforma permite automatizar a correção através do upload de uma planilha e da aplicação de uma nota de corte dinâmica.

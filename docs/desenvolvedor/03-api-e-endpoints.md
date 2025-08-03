@@ -1,3 +1,7 @@
+---
+password: '12345678'
+---
+
 # Documentação da API (RESTful) e Endpoints
 
 A API do Portal do Candidato segue os padrões RESTful e serve como a espinha dorsal da aplicação, conectando o front-end ao banco de dados. Toda a documentação dos endpoints está disponível de forma interativa através do Swagger UI.

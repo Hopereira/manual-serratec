@@ -1,3 +1,7 @@
+---
+password: '12345678'
+---
+
 # 2. Criando um Processo Seletivo do Zero
 
 Com as regiões já configuradas, o próximo passo é a criação do processo seletivo em si. Esta etapa é a mais detalhada, pois define todas as regras, prazos, requisitos e documentos que os candidatos verão.

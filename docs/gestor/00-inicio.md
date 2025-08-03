@@ -1,3 +1,6 @@
+---
+password: '12345678'
+---
 # Manual do Gestor: Visão Geral e Acesso
 
 Bem-vindo(a) à área do gestor! Este manual detalha todos os procedimentos para administrar o ciclo de vida de um processo seletivo na plataforma, desde as configurações iniciais até a análise final dos candidatos.

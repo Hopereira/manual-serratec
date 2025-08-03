@@ -1,3 +1,6 @@
+---
+password: '12345678'
+---
 # 5. Acompanhamento Final e Publicação
 
 Esta é a etapa final do gerenciamento de uma fase do processo seletivo. Após todas as avaliações individuais terem sido corrigidas e salvas, você precisa consolidar os resultados, aplicar critérios ponderados e, finalmente, tornar o status (Aprovado ou Reprovado na Etapa) visível para os candidatos.

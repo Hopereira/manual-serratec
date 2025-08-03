@@ -1,3 +1,7 @@
+---
+password: '12345678'
+---
+
 # Ambiente Local com Docker
 
 Este projeto é configurado para ser executado inteiramente com Docker, o que simplifica drasticamente a configuração do ambiente de desenvolvimento.

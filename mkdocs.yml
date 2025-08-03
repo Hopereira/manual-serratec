@@ -1,21 +1,33 @@
 site_name: Manual do Portal Serratec
-site_url: https://exemplo.com/
+site_url: https://portalserratec.netlify.app/
+site_author: Time de Desenvolvedores Serratec.
+site_description: Documentação completa do Portal do Candidato, incluindo guia do Usuário e manuais para Desenvolvedores e Gestores.
+
+repo_url: https://github.com/RTIC-STEM/2024_2_Serratec_Portal_do_Candidato
+repo_name: RTIC-STEM/2024_2_Serratec_Portal_do_Candidato
+repo_type: github
+copyright: '© 2024 RTIC-STEM. Todos os direitos reservados.'
+repo_branch: main
+
+# Ativa o diretório de customização
+custom_dir: overrides
 
 theme:
   name: material
   language: pt
+  # Paleta de Cores com Alternador
   palette:
     # Paleta para modo claro
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: '#2D81C3'
+      accent: '#2D81C3'
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
     # Paleta para modo escuro
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: '#2D81C3'
+      accent: '#2D81C3'
       toggle:
         icon: material/brightness-4
         name: Mudar para modo claro
@@ -29,6 +41,17 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - -navigation.instant # Mantemos isso desativado por segurança
+
+# Carrega os nossos ficheiros de customização
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/font-sizer.js
+
+plugins:
+  - search
+  - encryptcontent
 
 nav:
   - 'Início': 'index.md'
@@ -50,3 +73,8 @@ nav:
     - 'Arquitetura e Tecnologias': 'desenvolvedor/01-arquitetura.md'
     - 'Ambiente Local (Docker)': 'desenvolvedor/02-ambiente-local.md'
     - 'API e Endpoints (Swagger)': 'desenvolvedor/03-api-e-endpoints.md'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
