@@ -30,7 +30,6 @@ theme:
     - content.code.annotation
     - content.code.copy
 
-# A mágica acontece aqui! Criamos seções separadas para cada manual.
 nav:
   - 'Início': 'index.md'
   - 'Manual do Candidato':
@@ -46,3 +45,8 @@ nav:
     - '3. Gerenciando Etapas e Avaliações': 'gestor/03-etapas-e-avaliacoes.md'
     - '4. Gerenciando Resultados': 'gestor/04-gerenciando-resultados.md'
     - '5. Acompanhamento Final': 'gestor/05-acompanhamento-final.md'
+  - 'Manual do Desenvolvedor':
+    - 'Introdução e Visão Geral': 'desenvolvedor/00-introducao.md'
+    - 'Arquitetura e Tecnologias': 'desenvolvedor/01-arquitetura.md'
+    - 'Ambiente Local (Docker)': 'desenvolvedor/02-ambiente-local.md'
+    - 'API e Endpoints (Swagger)': 'desenvolvedor/03-api-e-endpoints.md'
