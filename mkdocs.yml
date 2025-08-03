@@ -1,5 +1,6 @@
-site_name: Manual do Candidato Serratec
+site_name: Manual do Portal Serratec
 site_url: https://exemplo.com/
+
 theme:
   name: material
   language: pt
@@ -29,10 +30,19 @@ theme:
     - content.code.annotation
     - content.code.copy
 
+# A mágica acontece aqui! Criamos seções separadas para cada manual.
 nav:
   - 'Início': 'index.md'
-  - 'Etapa 1: Criando a Conta': '1-criando-a-conta.md'
-  - 'Etapa 2: Primeiro Acesso': '2-primeiro-acesso.md'
-  - 'Etapa 3: Preenchendo o Perfil': '3-preenchendo-o-perfil.md'
-  - 'Etapa 4: Inscrição no Programa': '4-inscricao.md'
-  - 'Etapa 5: Acompanhamento': '5-acompanhamento.md'
+  - 'Manual do Candidato':
+    - 'Etapa 1: Criando a Conta': '1-criando-a-conta.md'
+    - 'Etapa 2: Primeiro Acesso': '2-primeiro-acesso.md'
+    - 'Etapa 3: Preenchendo o Perfil': '3-preenchendo-o-perfil.md'
+    - 'Etapa 4: Inscrição no Programa': '4-inscricao.md'
+    - 'Etapa 5: Acompanhamento': '5-acompanhamento.md'
+  - 'Manual do Gestor':
+    - 'Visão Geral e Acesso': 'gestor/00-inicio.md'
+    - '1. Gestão de Regiões': 'gestor/01-regioes.md'
+    - '2. Criando um Processo Seletivo': 'gestor/02-criando-processo.md'
+    - '3. Gerenciando Etapas e Avaliações': 'gestor/03-etapas-e-avaliacoes.md'
+    - '4. Gerenciando Resultados': 'gestor/04-gerenciando-resultados.md'
+    - '5. Acompanhamento Final': 'gestor/05-acompanhamento-final.md'
