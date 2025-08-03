@@ -1,0 +1,38 @@
+site_name: Manual do Candidato Serratec
+site_url: https://exemplo.com/
+theme:
+  name: material
+  language: pt
+  palette:
+    # Paleta para modo claro
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Paleta para modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+nav:
+  - 'Início': 'index.md'
+  - 'Etapa 1: Criando a Conta': '1-criando-a-conta.md'
+  - 'Etapa 2: Primeiro Acesso': '2-primeiro-acesso.md'
+  - 'Etapa 3: Preenchendo o Perfil': '3-preenchendo-o-perfil.md'
+  - 'Etapa 4: Inscrição no Programa': '4-inscricao.md'
+  - 'Etapa 5: Acompanhamento': '5-acompanhamento.md'
