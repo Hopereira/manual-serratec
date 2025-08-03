@@ -43,3 +43,10 @@
 .font-sizer-btn:focus {
   outline: 2px solid #2D81C3;
 }
+/* Define as cores para o TEMA CLARO (default) */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #00529B; /* Seu azul corporativo */
+  --md-primary-fg-color--light: #BEEBFF;
+  --md-primary-fg-color--dark:  #003A70;
+  --md-accent-fg-color:         #34A853; /* Seu verde de destaque */
+}

@@ -5,29 +5,25 @@ site_description: Documentação completa do Portal do Candidato, incluindo guia
 
 repo_url: https://github.com/RTIC-STEM/2024_2_Serratec_Portal_do_Candidato
 repo_name: RTIC-STEM/2024_2_Serratec_Portal_do_Candidato
-repo_type: github
 copyright: '© 2024 RTIC-STEM. Todos os direitos reservados.'
-repo_branch: main
 
-# Ativa o diretório de customização
-custom_dir: overrides
-
+# --- TEMA E CUSTOMIZAÇÃO VISUAL ---
 theme:
   name: material
-  language: pt
-  # Paleta de Cores com Alternador
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   palette:
-    # Paleta para modo claro
+    # MODO CLARO
     - scheme: default
-      primary: '#2D81C3'
-      accent: '#2D81C3'
+      primary: #00529B   # Azul corporativo do portal
+      accent:  #34A853   # Verde dos botões
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
-    # Paleta para modo escuro
+    # MODO ESCURO
     - scheme: slate
-      primary: '#2D81C3'
-      accent: '#2D81C3'
+      primary: #00529B
+      accent:  #34A853
       toggle:
         icon: material/brightness-4
         name: Mudar para modo claro
@@ -39,20 +35,21 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-    - -navigation.instant # Mantemos isso desativado por segurança
+    - navigation.instant # Essencial para compatibilidade com o plugin de senha
 
-# Carrega os nossos ficheiros de customização
+# --- ARQUIVOS DE CUSTOMIZAÇÃO ADICIONAIS ---
+custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - javascripts/font-sizer.js
 
+# --- PLUGINS ---
 plugins:
   - search
   - encryptcontent
 
+# --- NAVEGAÇÃO DO SITE ---
 nav:
   - 'Início': 'index.md'
   - 'Manual do Candidato':
@@ -74,6 +71,7 @@ nav:
     - 'Ambiente Local (Docker)': 'desenvolvedor/02-ambiente-local.md'
     - 'API e Endpoints (Swagger)': 'desenvolvedor/03-api-e-endpoints.md'
 
+# --- EXTENSÕES DO MARKDOWN ---
 markdown_extensions:
   - admonition
   - pymdownx.details
