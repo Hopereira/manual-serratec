@@ -29,3 +29,17 @@
 .font-sizer-container button:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+
+.font-sizer-btn {
+  font-size: 1rem;
+  padding: 2px 8px;
+  margin: 0 2px;
+  border: none;
+  background: #eee;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.font-sizer-btn:focus {
+  outline: 2px solid #2D81C3;
+}
