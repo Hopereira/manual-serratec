@@ -11,6 +11,15 @@ Escolha o seu perfil abaixo para começar:
 
 * ### **[Manual do Gestor](gestor/00-inicio.md)**
     * Aprenda a configurar regiões, criar e gerenciar processos seletivos, configurar etapas, avaliar candidatos e publicar resultados. Essencial para administradores do sistema.
+* ### **[Manual do Desenvolvedor](desenvolvedor/00-introducao.md)**
+    * O manual permite que um novo programador configure o ambiente de desenvolvimento e execute o projeto em poucas horas, em vez de dias, seguindo os passos de clonagem do repositório e execução do Docker.
+
+    * Servir como Referência Técnica Central: Ele funciona como o "mapa" do projeto. Qualquer pessoa da equipa pode consultá-lo para se lembrar rapidamente quais tecnologias são utilizadas, como a arquitetura de microsserviços, o uso de Next.js no front-end, Java no back-end e o banco de dados PostgreSQL.
+
+    * Garantir a Padronização do Ambiente: Ao detalhar a configuração via Docker, o manual garante que todos os programadores trabalhem num ambiente idêntico. Isso evita os clássicos problemas de "mas na minha máquina funciona", que podem causar bugs e atrasos.
+
+    * Facilitar o Desenvolvimento Contínuo e a Manutenção: Esta é a função mais importante a longo prazo. O manual explica como a API funciona, o fluxo de autenticação com JWT e, crucialmente, como aceder à documentação interativa do Swagger. Os programadores usarão esta secção diariamente para testar endpoints e entender como criar novas funcionalidades que interajam corretamente com o back-end.
+
 
 ---
 
