@@ -10,20 +10,28 @@ copyright: '© 2024 RTIC-STEM. Todos os direitos reservados.'
 # --- TEMA E CUSTOMIZAÇÃO VISUAL ---
 theme:
   name: material
+  language: pt
+  
+  # A CHAVE 'custom_dir' DEVE ESTAR AQUI DENTRO
+  custom_dir: overrides
+  
   logo: assets/logo.png
   favicon: assets/favicon.ico
+  font:
+    text: Roboto
+    code: Roboto Mono
   palette:
     # MODO CLARO
     - scheme: default
-      primary: #00529B   # Azul corporativo do portal
-      accent:  #34A853   # Verde dos botões
+      primary: '#00529B'
+      accent: '#34A853'
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
     # MODO ESCURO
     - scheme: slate
-      primary: #00529B
-      accent:  #34A853
+      primary: '#00529B'
+      accent: '#34A853'
       toggle:
         icon: material/brightness-4
         name: Mudar para modo claro
@@ -35,10 +43,11 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - navigation.instant # Essencial para compatibilidade com o plugin de senha
+    - content.code.annotation
+    - content.code.copy
+    - -navigation.instant
 
 # --- ARQUIVOS DE CUSTOMIZAÇÃO ADICIONAIS ---
-custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
@@ -47,7 +56,26 @@ extra_javascript:
 # --- PLUGINS ---
 plugins:
   - search
- #- encryptcontent
+  #- encryptcontent
+  - with-pdf:
+      author: Time de Desenvolvedores Serratec
+      cover_title: Manual Completo do Portal Serratec
+      cover_subtitle: Guia do Usuário, Gestor e Desenvolvedor
+      cover_logo: assets/logo.png
+      cover_logo_width: 120
+      cover_page: true
+      toc_title: Sumário
+      output_path: ../manual_portal_serratec.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+      copyright: '© 2024 RTIC-STEM. Todos os direitos reservados.'
+      subject: Manual do Portal Serratec
+      keywords: [Serratec, Manual, Portal, Candidato, Gestor, Desenvolvedor]
+      page_size: A4
+      margin_top: 20
+      margin_bottom: 20
+      margin_left: 20
+      margin_right: 20
+      toc_level: 3
 
 # --- NAVEGAÇÃO DO SITE ---
 nav:
@@ -59,14 +87,14 @@ nav:
     - 'Etapa 4: Inscrição no Programa': '4-inscricao.md'
     - 'Etapa 5: Acompanhamento': '5-acompanhamento.md'
   - 'Manual do Gestor':
-    - 'Visão Geral e Acesso': 'gestor/00-inicio.md'
+    - 'Visão Geral': 'gestor/00-inicio.md'
     - '1. Gestão de Regiões': 'gestor/01-regioes.md'
     - '2. Criando um Processo Seletivo': 'gestor/02-criando-processo.md'
     - '3. Gerenciando Etapas e Avaliações': 'gestor/03-etapas-e-avaliacoes.md'
     - '4. Gerenciando Resultados': 'gestor/04-gerenciando-resultados.md'
     - '5. Acompanhamento Final': 'gestor/05-acompanhamento-final.md'
   - 'Manual do Desenvolvedor':
-    - 'Introdução e Visão Geral': 'desenvolvedor/00-introducao.md'
+    - 'Visão Geral': 'desenvolvedor/00-introducao.md'
     - 'Arquitetura e Tecnologias': 'desenvolvedor/01-arquitetura.md'
     - 'Ambiente Local (Docker)': 'desenvolvedor/02-ambiente-local.md'
     - 'API e Endpoints (Swagger)': 'desenvolvedor/03-api-e-endpoints.md'
