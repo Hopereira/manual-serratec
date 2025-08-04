@@ -1,0 +1,1056 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação completa do Portal do Candidato, incluindo guia do Usuário e manuais para Desenvolvedores e Gestores.">
+      
+      
+        <meta name="author" content="Time de Desenvolvedores Serratec.">
+      
+      
+        <link rel="canonical" href="https://portalserratec.netlify.app/gestor/01-regioes/">
+      
+      
+        <link rel="prev" href="../00-inicio/">
+      
+      
+        <link rel="next" href="../02-criando-processo/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>[Protected] 1. Gestão de Regiões - Manual do Portal Serratec</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-gestao-de-regioes-de-atuacao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Manual do Portal Serratec" class="md-header__button md-logo" aria-label="Manual do Portal Serratec" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Manual do Portal Serratec
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              [Protected] 1. Gestão de Regiões
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/RTIC-STEM/2024_2_Serratec_Portal_do_Candidato" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RTIC-STEM/2024_2_Serratec_Portal_do_Candidato
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../1-criando-a-conta/" class="md-tabs__link">
+          
+  
+  
+  Manual do Candidato
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../00-inicio/" class="md-tabs__link">
+          
+  
+  
+  Manual do Gestor
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../desenvolvedor/00-introducao/" class="md-tabs__link">
+          
+  
+  
+  Manual do Desenvolvedor
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Manual do Portal Serratec" class="md-nav__button md-logo" aria-label="Manual do Portal Serratec" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Manual do Portal Serratec
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/RTIC-STEM/2024_2_Serratec_Portal_do_Candidato" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RTIC-STEM/2024_2_Serratec_Portal_do_Candidato
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Manual do Candidato
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Manual do Candidato
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1-criando-a-conta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Etapa 1: Criando a Conta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2-primeiro-acesso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Etapa 2: Primeiro Acesso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3-preenchendo-o-perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Etapa 3: Preenchendo o Perfil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4-inscricao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Etapa 4: Inscrição no Programa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5-acompanhamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Etapa 5: Acompanhamento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Manual do Gestor
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Manual do Gestor
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00-inicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    [Protected] Visão Geral e Acesso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    [Protected] 1. Gestão de Regiões
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    [Protected] 1. Gestão de Regiões
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#para-que-servem-as-regioes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Para que servem as Regiões?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tutorial-em-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutorial em Vídeo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-a-passo-detalhado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo a Passo Detalhado
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-criando-processo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Criando um Processo Seletivo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-etapas-e-avaliacoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Gerenciando Etapas e Avaliações
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-gerenciando-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Gerenciando Resultados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-acompanhamento-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5. Acompanhamento Final
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Manual do Desenvolvedor
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Manual do Desenvolvedor
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvedor/00-introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    [Protected] Introdução e Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvedor/01-arquitetura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    [Protected] Arquitetura e Tecnologias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvedor/02-ambiente-local/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    [Protected] Ambiente Local (Docker)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvedor/03-api-e-endpoints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    [Protected] API e Endpoints (Swagger)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<div id="mkdocs-encrypted-content" style="display:none">VYtYaJH1Qjf1hDTjPH2Y2Q==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This content is protected with AES encryption. </h1>
+        <p>Contact your administrator for access to this page.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "gestor/01-regioes/";
+var decryption_failure_message = "Invalid password.";
+var encryptcontent_keystore = ["FcYfAYyNkFUX/ZFokelkng==;bF/bcwAH0Na2k1BsCK+ASU66/CMHmS2hglvHNBNz641tE6FZxQHAFypaBeUd//U9UDvgHU2xLupWBvGQH4pCox0XGcCNA7JQopxvK/VPCEYTQaPt3FQOztvg2IYGYMrX;yQnuNh5hQXzQRF5rGTtEgA=="];
+var encryptcontent_obfuscate = 0;
+
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2024 RTIC-STEM. Todos os direitos reservados.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "navigation.instant"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+        <script src="../../javascripts/font-sizer.js"></script>
+      
+    
+  </body>
+</html>

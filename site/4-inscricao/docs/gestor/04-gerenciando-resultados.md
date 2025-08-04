@@ -12,7 +12,7 @@ Após os candidatos finalizarem uma avaliação, como um teste técnico ou um de
 
 Assista ao vídeo para ver na prática como fazer o upload de uma planilha de notas e como a nota de corte funciona para aprovar ou reprovar os candidatos automaticamente.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&amp;start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fx3DfsgvalI?si=uxUKcxGZPcjZdpnD&amp;start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Onde Gerenciar os Resultados?
 

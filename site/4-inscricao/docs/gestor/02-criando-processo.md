@@ -11,7 +11,7 @@ Com as regiões já configuradas, o próximo passo é a criação do processo se
 ### Tutorial em Vídeo
 
 Assista ao guia visual completo sobre como preencher todos os campos para criar um novo processo seletivo.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=pxEyXA6clJwaHv2G&amp;start=82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fx3DfsgvalI?si=pxEyXA6clJwaHv2G&amp;start=82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Passo a Passo Detalhado
 

@@ -15,4 +15,4 @@ Bem-vindo(a) à área do gestor! Este manual detalha todos os procedimentos para
 
 Para um guia visual de todas as etapas descritas neste manual, assista ao vídeo tutorial completo abaixo.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=8270oI2YzckDpvso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fx3DfsgvalI?si=8270oI2YzckDpvso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

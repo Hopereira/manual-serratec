@@ -16,7 +16,7 @@ Ao criar um processo seletivo, você poderá associá-lo a uma ou mais destas re
 
 Assista ao passo a passo em vídeo de como realizar o cadastro de uma nova região.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=4mRyMGq3_iPbSz8G&amp;start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fx3DfsgvalI?si=4mRyMGq3_iPbSz8G&amp;start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 

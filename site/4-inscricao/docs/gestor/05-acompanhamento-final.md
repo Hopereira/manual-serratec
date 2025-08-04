@@ -11,7 +11,7 @@ Esta é a etapa final do gerenciamento de uma fase do processo seletivo. Após t
 
 Assista ao vídeo para aprender como definir pesos para as avaliações, aplicar uma nota de corte final e disponibilizar os resultados da etapa.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&amp;start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fx3DfsgvalI?si=uxUKcxGZPcjZdpnD&amp;start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Passo a Passo para a Consolidação
 
