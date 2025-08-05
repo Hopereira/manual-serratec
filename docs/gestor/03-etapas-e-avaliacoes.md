@@ -15,7 +15,7 @@ Depois de criar a estrutura geral do processo seletivo, é hora de construir o c
 
 Assista ao passo a passo de como criar uma nova etapa e adicionar avaliações a ela.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&amp;start=255" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&start=255" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Parte 1: Criando uma Nova Etapa
 
@@ -25,12 +25,16 @@ Assista ao passo a passo de como criar uma nova etapa e adicionar avaliações a
 2.  **Inicie a Criação**
     * Se nenhuma etapa existir, a lista estará vazia. Clique no botão azul **"+ Nova Etapa"** no canto superior direito.
 
+    ![Tela de Gerenciar Etapas com o botão + Nova Etapa em destaque.](../assets/images/gestor/Gerenciando%20Etapas%20e%20Avaliações.png)
+
 3.  **Preencha os Detalhes da Etapa**
     * **Reaproveitar Modelo (Opcional):** Você pode usar um modelo de uma etapa já criada para agilizar o preenchimento.
     * **Título:** Dê um nome claro para a etapa (ex: "Trilha de Qualificação Online").
     * **Descrição:** Explique o objetivo desta fase do processo.
     * **Data de Início e Fim:** Defina o período em que esta etapa estará ativa.
     * **Vagas na Etapa:** Insira o número de candidatos que serão aprovados para a fase seguinte.
+
+    ![Formulário de criação de uma Nova Etapa.](../assets/images/gestor/Criando%20uma%20Nova%20Etapa.png)
 
 ### Parte 2: Adicionando Avaliações à Etapa
 
@@ -45,9 +49,13 @@ Dentro do formulário de criação da etapa, você pode adicionar as atividades 
     * **Link da Avaliação:** Insira a URL onde o candidato realizará a prova ou a chamada de vídeo.
     * **Data e Hora de Início e Fim:** Defina com precisão o período em que a avaliação estará disponível para o candidato.
 
+    ![Janela modal para adicionar uma Nova Avaliação.](../assets/images/gestor/Adicionando%20Avaliações%20à%20Etapa.png)
+
 3.  **Salve a Avaliação**
     * Clique em **"Salvar Avaliação"** na janela modal. A avaliação será adicionada à etapa.
     * Você pode repetir o processo para adicionar várias avaliações a uma mesma etapa.
 
 4.  **Salve a Etapa Completa**
     * Após preencher os dados da etapa e adicionar todas as avaliações necessárias, clique no botão azul **"Salvar Etapa"** no final da página para concluir a criação.
+
+    ![Botão para salvar a etapa com todas as suas avaliações.](../assets/images/gestor/Salve%20a%20Etapa%20Completa.png)

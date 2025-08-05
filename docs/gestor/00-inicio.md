@@ -5,6 +5,10 @@ password: '12345678'
 
 Bem-vindo(a) à área do gestor! Este manual detalha todos os procedimentos para administrar o ciclo de vida de um processo seletivo na plataforma, desde as configurações iniciais até a análise final dos candidatos.
 
+Para acessar o painel de administração, clique em **"Ir para área Administrativa"** no menu lateral, após fazer login com sua conta de gestor.
+
+![Botão de acesso à área administrativa do portal.](../assets/images/gestor/Manual%20do%20Gestor.png)
+
 ### O que você precisa para começar?
 
 * Um acesso de administrador/gestor (e-mail e senha).

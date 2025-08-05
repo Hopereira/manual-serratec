@@ -12,7 +12,7 @@ Após os candidatos finalizarem uma avaliação, como um teste técnico ou um de
 
 Assista ao vídeo para ver na prática como fazer o upload de uma planilha de notas e como a nota de corte funciona para aprovar ou reprovar os candidatos automaticamente.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&amp;start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Onde Gerenciar os Resultados?
 
@@ -22,9 +22,13 @@ Para chegar à tela de gerenciamento, siga este caminho:
 2.  Na lista de etapas, clique em **"Avaliações"** na etapa correspondente.
 3.  Na lista de avaliações, encontre a que deseja gerenciar e clique no botão verde **"Resultados"**.
 
+![Lista de etapas de um processo com o botão Resultados em destaque.](../assets/images/gestor/Gerenciando%20Resultados%20de%20uma%20Avaliação.png)
+
 ### Passo a Passo do Gerenciamento
 
 A tela de "Gerenciar Resultados" possui duas funcionalidades principais:
+
+![Tela de Gerenciar Resultados com as seções de Upload de Planilha e Nota de Corte.](../assets/images/gestor/Onde%20Gerenciar%20os%20Resultados.png)
 
 #### **Passo 1: Upload da Planilha de Notas**
 
@@ -34,3 +38,5 @@ A tela de "Gerenciar Resultados" possui duas funcionalidades principais:
 >
 > !!! attention "Estrutura da Planilha"
 >     A planilha deve conter uma coluna para identificar o
+
+![Botão para selecionar o arquivo de planilha de notas.](../assets/images/gestor/Upload%20da%20Planilha%20de%20Notas.png)

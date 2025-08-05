@@ -11,7 +11,7 @@ Esta é a etapa final do gerenciamento de uma fase do processo seletivo. Após t
 
 Assista ao vídeo para aprender como definir pesos para as avaliações, aplicar uma nota de corte final e disponibilizar os resultados da etapa.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&amp;start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=uxUKcxGZPcjZdpnD&start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Passo a Passo para a Consolidação
 
@@ -32,10 +32,14 @@ A tela "Resultados da Etapa" resume o desempenho geral dos candidatos.
 > * Este é o momento de definir a nota de corte final para a etapa, que será calculada com base na média ponderada das avaliações.
 > * Digite a nota de corte (ex: 70 ou 80) e clique em **"Aplicar"**. O status dos candidatos na lista abaixo será atualizado.
 
+![Tela de configuração de Pesos e Nota de Corte para a etapa.](../assets/images/gestor/Gerenciamento%20Manual%20(Opcional).png)
+
 #### **Passo 2: Gerenciamento Manual (Opcional)**
 
 O sistema permite flexibilidade para ajustar o status de um candidato manualmente.
 
 > **O que fazer:** Na lista de candidatos, ao lado do nome desejado, clique no botão **"Gerenciar"**.
 >
-> **O que acontece:** Uma janela se abrirá, permitindo que você altere o status do candidato (de
+> **O que acontece:** Uma janela se abrirá, permitindo que você altere o status do candidato para "Aprovado" ou "Reprovado", independentemente da nota calculada.
+
+![Lista de candidatos com seus status (Aprovado/Reprovado) e notas.](../assets/images/gestor/Acompanhamento%20Final%20e%20Publicação.png)

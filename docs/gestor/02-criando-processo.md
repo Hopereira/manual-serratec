@@ -11,7 +11,7 @@ Com as regiões já configuradas, o próximo passo é a criação do processo se
 ### Tutorial em Vídeo
 
 Assista ao guia visual completo sobre como preencher todos os campos para criar um novo processo seletivo.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=pxEyXA6clJwaHv2G&amp;start=82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=pxEyXA6clJwaHv2G&start=82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Passo a Passo Detalhado
 
@@ -20,12 +20,17 @@ O formulário de criação é dividido em seções para facilitar o preenchiment
 #### **Parte 1: Dados Gerais e Prazos**
 
 1.  **Inicie a Criação:** Na tela principal de "Processos Seletivos", clique no botão azul **"+ Novo Processo"**.
+
+    ![Tela de Processos Seletivos com o botão + Novo Processo destacado.](../assets/images/gestor/Criando%20um%20Processo%20Seletivo%20do%20Zero.png)
+
 2.  **Dados Gerais:**
     * **Título do Processo:** Insira um nome claro e objetivo (ex: "Programa Técnico em Desenvolvimento de Software 2025").
     * **Descrição Detalhada:** Descreva os objetivos, público-alvo e detalhes importantes do programa.
     * **Modalidade:** Selecione o formato do curso (ex: Online, Híbrido, Presencial).
 3.  **Períodos e Prazos:**
     * Defina as datas de **Início das Inscrições**, **Fim das Inscrições**, **Início do Ciclo/Programa** e **Fim do Ciclo/Programa**.
+
+    ![Formulário de criação de processo seletivo com os campos de Dados Gerais.](../assets/images/gestor/Dados%20Gerais%20e%20Prazos.png)
 
 #### **Parte 2: Configurações e Requisitos**
 
@@ -37,6 +42,9 @@ O formulário de criação é dividido em seções para facilitar o preenchiment
         * **Escolaridade Mínima**.
         * **Renda Familiar Máxima**.
         * **Duração do Ciclo (Meses)**, e outros.
+
+    ![Seção de Requisitos Configuráveis no formulário do processo seletivo.](../assets/images/gestor/Configurações%20e%20Requisitos.png)
+
 3.  **Ações Afirmativas:**
     * Selecione os critérios de ações afirmativas que serão aplicados (ex: PCD, Preto, Mulher).
 4.  **Anexar Documentos:**
