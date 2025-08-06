@@ -56,7 +56,7 @@ extra_javascript:
 # --- PLUGINS ---
 plugins:
   - search
-  #- encryptcontent
+  - encryptcontent
   - with-pdf:
       author: Time de Desenvolvedores Serratec
       cover_title: Manual Completo do Portal Serratec

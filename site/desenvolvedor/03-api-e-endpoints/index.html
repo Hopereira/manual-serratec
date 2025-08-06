@@ -24,7 +24,7 @@
     
     
       
-        <title>API e Endpoints (Swagger) - Manual do Portal Serratec</title>
+        <title>[Protected] API e Endpoints (Swagger) - Manual do Portal Serratec</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API e Endpoints (Swagger)
+              [Protected] API e Endpoints (Swagger)
             
           </span>
         </div>
@@ -780,7 +780,7 @@
   
   
   <span class="md-ellipsis">
-    Visão Geral
+    [Protected] Visão Geral
     
   </span>
   
@@ -803,7 +803,7 @@
   
   
   <span class="md-ellipsis">
-    Arquitetura e Tecnologias
+    [Protected] Arquitetura e Tecnologias
     
   </span>
   
@@ -826,7 +826,7 @@
   
   
   <span class="md-ellipsis">
-    Ambiente Local (Docker)
+    [Protected] Ambiente Local (Docker)
     
   </span>
   
@@ -858,7 +858,7 @@
   
   
   <span class="md-ellipsis">
-    API e Endpoints (Swagger)
+    [Protected] API e Endpoints (Swagger)
     
   </span>
   
@@ -871,7 +871,7 @@
   
   
   <span class="md-ellipsis">
-    API e Endpoints (Swagger)
+    [Protected] API e Endpoints (Swagger)
     
   </span>
   
@@ -955,68 +955,39 @@
   
 
 
-<h1 id="documentacao-da-api-restful-e-endpoints">Documentação da API (RESTful) e Endpoints</h1>
-<p>A API do Portal do Candidato segue os padrões RESTful e serve como a espinha dorsal da aplicação, conectando o front-end ao banco de dados. Toda a documentação dos endpoints está disponível de forma interativa através do Swagger UI.</p>
-<h3 id="1-acessando-a-documentacao-interativa-swagger">1. Acessando a Documentação Interativa (Swagger)</h3>
-<p>Com o ambiente Docker em execução, a documentação da API fica instantaneamente disponível e pronta para uso.</p>
-<blockquote>
-<p><strong>URL do Swagger:</strong> <a href="http://localhost:8080/swagger-ui/index.html">http://localhost:8080/swagger-ui/index.html</a></p>
-</blockquote>
-<p>Nesta página, você poderá:
--   Visualizar todos os endpoints disponíveis, agrupados por funcionalidade.
--   Verificar os parâmetros necessários para cada requisição (path, query, body).
--   Inspecionar os schemas dos corpos de requisição e resposta.
--   Testar as chamadas de API diretamente pelo navegador.</p>
-<h3 id="2-fluxo-de-autenticacao-jwt">2. Fluxo de Autenticação (JWT)</h3>
-<p>A API utiliza <strong>JWT (JSON Web Token)</strong> para proteger rotas sensíveis, garantindo que apenas usuários autenticados possam acessar ou modificar dados. O fluxo padrão é:</p>
-<ol>
-<li><strong>Login:</strong> O front-end envia as credenciais (email e senha) para o endpoint de autenticação (ex: <code>POST /auth/login</code>).</li>
-<li><strong>Recebimento do Token:</strong> Se as credenciais estiverem corretas, a API retorna um token JWT válido.</li>
-<li><strong>Envio do Token:</strong> Para acessar rotas protegidas, o front-end deve incluir este token no cabeçalho (header) de cada requisição subsequente, utilizando o seguinte formato:
-    <div class="highlight"><pre><span></span><code><span class="err">Authorization: Bearer &lt;seu_token_jwt&gt;</span>
-</code></pre></div></li>
-</ol>
-<h3 id="3-principais-grupos-de-endpoints">3. Principais Grupos de Endpoints</h3>
-<p>Os endpoints da API são organizados em torno das principais entidades do portal. Abaixo estão os grupos que você encontrará no Swagger:</p>
-<ul>
-<li>
-<p><strong>Autenticação:</strong></p>
-<ul>
-<li>Endpoints responsáveis por criar contas de usuário e gerar tokens de acesso.</li>
-<li>Exemplos: <code>POST /auth/register</code>, <code>POST /auth/login</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Candidatos:</strong></p>
-<ul>
-<li>Endpoints para gerenciar as informações dos candidatos. Permitem a criação, visualização e atualização de perfis.</li>
-<li>Exemplos: <code>GET /candidatos/{id}</code>, <code>PUT /candidatos/{id}</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Processos Seletivos:</strong></p>
-<ul>
-<li>Endpoints que listam os processos seletivos disponíveis e seus detalhes.</li>
-<li>Exemplos: <code>GET /processos-seletivos</code>, <code>GET /processos-seletivos/{id}</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Inscrições:</strong></p>
-<ul>
-<li>Endpoints para gerenciar a inscrição de um candidato em um processo seletivo. Permitem criar uma nova inscrição e visualizar as inscrições existentes de um usuário.</li>
-<li>Exemplos: <code>POST /inscricoes</code>, <code>GET /candidatos/{id}/inscricoes</code>.</li>
-</ul>
-</li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">e/lGHjqFmNtEKyIHVovqxw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This content is protected with AES encryption. </h1>
+        <p>Contact your administrator for access to this page.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "desenvolvedor/03-api-e-endpoints/";
+var decryption_failure_message = "Invalid password.";
+var encryptcontent_keystore = ["APLx6czP84Ig5be4IauBtQ==;MsdoBA1rGCdGiUP7UjmtLjzMKxhqy0rgYoUFRFcjZcL6BAMZaZrXh3gJ48agnoJZPqoEDT0Yeb+Rz/T7w1kusiX0vL5mpX66X3BVwSOY5D7jy00eFOsE2AljVppZgvnw;8MinIsVL6y9RIqjo4ziblQ=="];
+var encryptcontent_obfuscate = 0;
+
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
 
 
 
 
 
 
-
-  
-  
 
 
 

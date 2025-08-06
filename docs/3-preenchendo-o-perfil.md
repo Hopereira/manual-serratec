@@ -16,7 +16,7 @@ Para se candidatar, você precisa primeiro nos contar sobre você. O sistema foi
 >
 > **Ação Final:** Após preencher tudo, clique no botão azul **"Salvar Candidato"**.
 
-![Tela de preenchimento de dados pessoais.](assets/images/etapa-3/Informações%20Pessoais%20e%20Documentos.jpg)
+![Tela de preenchimento de dados pessoais.](assets/images/etapa-3/Informações%20Pessoais%20e%20Documentos.png)
 
 ---
 
@@ -41,7 +41,8 @@ Para se candidatar, você precisa primeiro nos contar sobre você. O sistema foi
 > **Experiência Profissional**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S8NEqRfScak?si=INOz81a2cE5evVca&start=163" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-![Tela para adicionar experiência profissional.](assets/images/etapa-3/Experiência%20Profissional.jpg)
+![Tela para adicionar experiência profissional.](assets/images/etapa-3/Experiência%20Profissional.png
+)
 >
 > **Formação Acadêmica**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S8NEqRfScak?si=INOz81a2cE5evVca&start=238" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -49,4 +50,4 @@ Para se candidatar, você precisa primeiro nos contar sobre você. O sistema foi
 > !!! warning "Obrigatório"
 >     Na seção de Formação Acadêmica, é obrigatório anexar um comprovante ou certificado.
 
-![Tela para adicionar formação acadêmica.](assets/images/etapa-3/Formação%20Acadêmica.jpg)
+![Tela para adicionar formação acadêmica.](assets/images/etapa-3/Formação%20Acadêmica.png)

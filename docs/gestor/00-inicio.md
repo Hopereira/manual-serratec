@@ -19,4 +19,4 @@ Para acessar o painel de administração, clique em **"Ir para área Administrat
 
 Para um guia visual de todas as etapas descritas neste manual, assista ao vídeo tutorial completo abaixo.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XskeEsx3NTg?si=8270oI2YzckDpvso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/14lUz_yW6c73-AhKs0FXdXnyr4vCsBImU/preview" width="640" height="480" allow="autoplay"></iframe>
